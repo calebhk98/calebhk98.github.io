@@ -1,6 +1,11 @@
 @charset "utf-8";
 html{
   background-color: gray;
+  text-align: center;
 
 
+}
+ul{
+	text-align:left;
+	
 }
