@@ -2,6 +2,8 @@
 html{
   background-color: orange;
   text-align: center;
+  
+	text-decoration: none;
 
 
 }
@@ -10,7 +12,8 @@ body{
 	padding-left: 1%;
 	padding-right: 1%;
 	margin-top:0%;
-	
+	display:block;
+	min-height:626px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
@@ -18,12 +21,59 @@ body{
 	background-color:hsl(39, 100%, 60%);
 	
 	
+	
 }
 ul{
 	clear: left;
+	float: left;
 	text-align:left;
+	display:block;
 	
 }
+ul.Left{
+	clear: left;
+	width:45%;
+	float: left;
+	
+	display:block;
+	text-align:left;
+	list-style-type:none;
+	
+}
+
+ul.Right{
+	clear: right;
+	width:45%;
+	float: right;
+	display:block;
+	text-align:right;
+	list-style-type:none;
+	
+}
+
 img{
 	float:left;
+	
+	display:block;
+}
+a{
+	
+	text-decoration: none;
+	
+	
+}
+footer{
+	clear:both;
+	position:absolute;
+	bottom:0px;
+	height:2.5em;
+	text-bottom:10px; 
+	
+	
+}
+footer::after{
+	clear:both;
+	content:"";
+	display:table;
+	
 }
