@@ -1,19 +1,19 @@
 @charset "utf-8";
+
 html{
-  background-color: orange;
-  text-align: center;
-  
+	background-color: orange;
+	text-align: center;
+	  
 	text-decoration: none;
 
 
 }
 body{
 	padding:0%;
-	padding-left: 1%;
-	padding-right: 1%;
+	
 	margin-top:0%;
 	display:block;
-	min-height:626px;
+	min-height:700px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
@@ -62,12 +62,20 @@ a{
 	
 	
 }
-footer{
+
+body > footer{
 	clear:both;
+	
+	
 	position:absolute;
-	bottom:0px;
-	height:2.5em;
-	text-bottom:10px; 
+	bottom:-40px;
+	min-height:40px;
+	width:80%;
+	background-color:hsl(39, 80%, 60%);
+	text-align: center;
+	background-clip:content-box;
+	font: normal 0.7em/0.5em
+		Quicksand, Verdana, Geneva, sans-serif;
 	
 	
 }

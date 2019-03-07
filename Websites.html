@@ -3,6 +3,11 @@
 	<head>
 	<title> My Websites</title>
 	<link href="base.css" rel="stylesheet"/>
+	<script type="text/javascript">
+			onload = function(){
+				document.getElementById("lastModified").innerHTML = "Page last changed " + document.lastModified.split(" ")[0];
+			}
+	</script>
 	</head>
 	
 	<body>
@@ -20,7 +25,8 @@
 		  <li><a href="https://calebhk98.github.io/HTML-3-Review/pc_specials.html" target="_blank">This is my Review 3 website </a></li>
 		</ul>
 		<footer>
-		<p>This is my Footer</p>
+		<p>This is my Footer</p>		
+		<span id="lastModified"></span>
 		
 		</footer>
 	</body>

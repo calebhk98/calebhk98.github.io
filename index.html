@@ -3,6 +3,11 @@
   <head>
     <title>Caleb's Website</title>
     <link href="base.css" rel="stylesheet" />
+	<script type="text/javascript">
+			onload = function(){
+				document.getElementById("lastModified").innerHTML = "Page last changed " + document.lastModified.split(" ")[0];
+			}
+	</script>
   </head>
 <body>
   <h1><b>Hello World</b> New Test</h1>
@@ -35,10 +40,11 @@
   <li><a href="https://github.com/calebhk98/Coin-Flip/raw/master/HeadsOrTails/bin/Debug/HeadsOrTails.exe">This will let you flip a coin. </a></li>
   
   </ul>
-  <footer>
-	  <p>This is my Footer</p>
-	  <p>Last edited 2/26/19</p>
+	<footer>
+			
 		
-		</footer>
+		<p>This is my Footer</p>
+		<span id="lastModified"></span>
+	</footer>
 </body>
 </html>
