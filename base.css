@@ -68,7 +68,7 @@ body > footer{
 	
 	
 	position:absolute;
-	bottom:-40px;
+	bottom:0px;
 	min-height:40px;
 	width:80%;
 	background-color:hsl(39, 80%, 60%);
