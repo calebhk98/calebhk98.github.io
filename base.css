@@ -2,25 +2,32 @@
 
 html{
 	background-color: orange;
-	text-align: center;
-	  
+	text-align: center;  
 	text-decoration: none;
+	box-sizing: border-box;
+	position: relative;
+	
 
 
 }
+
+
 body{
-	padding:0%;
 	
-	margin-top:0%;
+	padding:0%;
+	min-height: 90vh;
+	margin-top:0%;	
 	display:block;
-	min-height:700px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
-	
 	background-color:hsl(39, 100%, 60%);
+	display: block;
+	position: relative;
 	
-	
+}
+p{
+	clear:both;
 	
 }
 ul{
@@ -29,10 +36,12 @@ ul{
 	text-align:left;
 	display:block;
 	
+     border:1px solid red;
+	
 }
 ul.Left{
 	clear: left;
-	width:45%;
+	width:40%;
 	float: left;
 	
 	display:block;
@@ -43,7 +52,7 @@ ul.Left{
 
 ul.Right{
 	clear: right;
-	width:45%;
+	width:40%;
 	float: right;
 	display:block;
 	text-align:right;
@@ -62,15 +71,13 @@ a{
 	
 	
 }
-
-body > footer{
+footer{
+	
 	clear:both;
-	
-	
 	position:absolute;
-	bottom:0px;
-	min-height:40px;
-	width:80%;
+	text-bottom:-50px;
+	min-height:4em;
+	width:100%;
 	background-color:hsl(39, 80%, 60%);
 	text-align: center;
 	background-clip:content-box;
@@ -78,10 +85,8 @@ body > footer{
 		Quicksand, Verdana, Geneva, sans-serif;
 	
 	
-}
-footer::after{
-	clear:both;
-	content:"";
-	display:table;
+	bottom:-4em;
 	
 }
+
+
