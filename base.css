@@ -12,6 +12,12 @@ html{
 }
 
 
+h1{
+	
+	text-shadow: blue 10px 5px 15px;
+	
+}
+
 body{
 	
 	padding:0%;
@@ -36,7 +42,7 @@ ul{
 	text-align:left;
 	display:block;
 	
-     border:1px solid red;
+     border:1px solid black;
 	
 }
 ul.Left{
