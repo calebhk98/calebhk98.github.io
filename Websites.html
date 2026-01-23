@@ -1,38 +1,77 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<title> My Websites</title>
-	<link href="base.css" rel="stylesheet"/>
-	<script type="text/javascript">
-			onload = function(){
-				document.getElementById("lastModified").innerHTML = "Page last changed " + document.lastModified.split(" ")[0];
-			}
-	</script>
-	</head>
-	
-	<body>
-		<a href="index.html"><h1>My Websites</h1></a>
-		<p>
-		All of these links will redirect you to another tab, to prevent losing this page, as there is no easy way back. 
-		
-		</p>
-		<ul>
-		  <li><a href="https://calebhk98.github.io/HTML-Tutorial-1/ct_start.html" target="_blank">This is my Tutorial 1 website </a></li>
-		  <li><a href="https://calebhk98.github.io/HTML-Review-1/mp_index.html" target="_blank">This is my Review 1 website </a></li>
-		  <li><a href="https://calebhk98.github.io/HTML-Tutorial-2/tss_home.html" target="_blank">This is my Tutorial 2 website </a></li>
-		  <li><a href="https://calebhk98.github.io/HTML-Review-2/tss_coach.html" target="_blank">This is my Review 2 website </a></li>
-		  <li><a href="https://calebhk98.github.io/HTML-Tutorial-3/pc_home.html" target="_blank">This is my Tutorial 3 website </a></li>		  
-		  <li><a href="https://calebhk98.github.io/HTML-Review-3/pc_specials.html" target="_blank">This is my Review 3 website </a></li>		  		  
-		  <li><a href="https://calebhk98.github.io/HTML-Tutorial-4/tb_komatsu.html" target="_blank">This is my Tutorial 4 website </a></li>		  		  
-		  <li><a href="https://calebhk98.github.io/HTML-Review-4/tb_ferris.html" target="_blank">This is my Review 4 website </a></li>		  		  
-		  <li><a href="https://calebhk98.github.io/HTML-Tutorial-5/tf_home.html" target="_blank">This is my Tutorial 5 website </a></li>	
-		</ul>
-		<p></p>
-		<footer>
-		<p>This is my Footer</p>		
-		<span id="lastModified"></span>
-		
-		</footer>
-	</body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caleb's Web Development Projects - HTML and CSS tutorial websites and projects">
+  <meta name="author" content="Caleb">
+  <title>Web Development Projects - Caleb's Portfolio</title>
+  <link href="base.css" rel="stylesheet"/>
+  <script type="text/javascript">
+    onload = function(){
+      document.getElementById("lastModified").innerHTML = "Last updated " + document.lastModified.split(" ")[0];
+    }
+  </script>
+</head>
 
+<body>
+  <a href="#main" class="skip-to-main">Skip to main content</a>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Websites.html" aria-current="page">
+        <img src="websites1.jpg" alt="" aria-hidden="true" />
+        Web Projects
+      </a></li>
+      <li><a href="C%23Programs.html">
+        <img src="csharpPic.png" alt="" aria-hidden="true" />
+        C# Programs
+      </a></li>
+      <li><a href="Python.html">
+        <img src="Python Logo.png" alt="" aria-hidden="true" />
+        Python Projects
+      </a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+    <h1>Web Development Projects</h1>
+    <p class="intro">A collection of HTML and CSS projects from tutorials and reviews</p>
+
+    <section aria-labelledby="about-section">
+      <h2 id="about-section">About These Projects</h2>
+      <p>These projects represent my journey learning web development fundamentals. Each tutorial builds upon previous concepts, progressing from basic HTML structure through advanced CSS layouts and responsive design.</p>
+      <p>All links open in new tabs so you can easily return to this page.</p>
+    </section>
+
+    <section aria-labelledby="tutorials-heading">
+      <h2 id="tutorials-heading">Tutorial Series</h2>
+      <p>Follow-along projects that demonstrate core web development concepts:</p>
+      <ul>
+        <li><a href="https://calebhk98.github.io/HTML-Tutorial-1/ct_start.html" target="_blank" rel="noopener noreferrer">Tutorial 1 - HTML Basics</a> - Introduction to HTML structure, tags, and semantic markup</li>
+        <li><a href="https://calebhk98.github.io/HTML-Tutorial-2/tss_home.html" target="_blank" rel="noopener noreferrer">Tutorial 2 - CSS Styling</a> - Learning CSS selectors, properties, and basic styling techniques</li>
+        <li><a href="https://calebhk98.github.io/HTML-Tutorial-3/pc_home.html" target="_blank" rel="noopener noreferrer">Tutorial 3 - Responsive Design</a> - Implementing flexible layouts and mobile-friendly designs</li>
+        <li><a href="https://calebhk98.github.io/HTML-Tutorial-4/tb_komatsu.html" target="_blank" rel="noopener noreferrer">Tutorial 4 - Advanced Layouts</a> - Complex page structures and navigation systems</li>
+        <li><a href="https://calebhk98.github.io/HTML-Tutorial-5/tf_home.html" target="_blank" rel="noopener noreferrer">Tutorial 5 - Forms and Tables</a> - Interactive elements and data presentation</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="reviews-heading">
+      <h2 id="reviews-heading">Review Projects</h2>
+      <p>Independent projects applying learned concepts:</p>
+      <ul>
+        <li><a href="https://calebhk98.github.io/HTML-Review-1/mp_index.html" target="_blank" rel="noopener noreferrer">Review 1 - HTML Fundamentals</a> - Demonstrating mastery of basic HTML structure</li>
+        <li><a href="https://calebhk98.github.io/HTML-Review-2/tss_coach.html" target="_blank" rel="noopener noreferrer">Review 2 - Advanced CSS</a> - Building on CSS styling with more complex layouts</li>
+        <li><a href="https://calebhk98.github.io/HTML-Review-3/pc_specials.html" target="_blank" rel="noopener noreferrer">Review 3 - Responsive Layouts</a> - Creating fully responsive web pages</li>
+        <li><a href="https://calebhk98.github.io/HTML-Review-4/tb_ferris.html" target="_blank" rel="noopener noreferrer">Review 4 - Complete Website</a> - Comprehensive project combining all skills</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with passion by Caleb | <a href="https://github.com/calebhk98" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="index.html">Back to Home</a></p>
+    <span id="lastModified"></span>
+  </footer>
+</body>
 </html>

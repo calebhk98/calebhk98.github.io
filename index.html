@@ -1,55 +1,136 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Caleb's Website</title>
-    <link href="base.css" rel="stylesheet" />
-	<script type="text/javascript">
-			onload = function(){
-				document.getElementById("lastModified").innerHTML = "Page last changed " + document.lastModified.split(" ")[0];
-			}
-	</script>
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caleb's Portfolio - Software developer showcasing C# programs, Python projects, and web development tutorials">
+  <meta name="author" content="Caleb">
+  <title>Caleb's Portfolio - Software Developer</title>
+  <link href="base.css" rel="stylesheet" />
+  <script type="text/javascript">
+    onload = function(){
+      document.getElementById("lastModified").innerHTML = "Last updated " + document.lastModified.split(" ")[0];
+    }
+  </script>
+</head>
 <body>
-  <h1><a href="index.html"><b>Hello World</b> </a></h1>
-<p>I'm hosted with GitHub Pages.</p>
-  <p>This is a list of my programs.</p>
-  <a href="Websites.html"> <img src="websites1.jpg" alt="Picture of websites" width="100"/></a>
-  <a href="C%23Programs.html"> <img src="csharpPic.png" alt="C sharp Logo" width="100"/></a>  
-  <a href="Python.html"> <img src="Python Logo.png" alt="Python Logo" width="100"/></a>
-  <ul>
-	  
-  <li><a href="https://darknight4231.github.io/">This is one of my friends websites, go check him out ^.^</a></li>
-  <li><a href="https://calebhk98.github.io/HTML-Tutorial-1/ct_start.html" target="_blank">This is my Tutorial 1 website </a></li>
-  <li><a href="https://calebhk98.github.io/HTML-Review-1/mp_index.html" target="_blank">This is my Review 1 website </a></li>
-  <li><a href="https://calebhk98.github.io/HTML-Tutorial-2/tss_home.html" target="_blank">This is my Tutorial 2 website </a></li>
-  <li><a href="https://calebhk98.github.io/HTML-Review-2/tss_coach.html" target="_blank">This is my Review 2 website </a></li>
-  <li><a href="https://calebhk98.github.io/HTML-Tutorial-3/pc_home.html" target="_blank">This is my Tutorial 3 website </a></li>
-  <li></li>
-  <li><a href="https://calebhk98.github.io/Joke-And-Punchline-In-C-/Joke%20and%20Punch%20Line/bin/Debug/Joke%20and%20Punch%20Line.exe">This is my Joke program. You will need to accept the download. </a></li>
-  <li><a href="https://calebhk98.github.io/Orions-Constellation/OrionConstellation/bin/Debug/OrionConstellation.exe">This is my basic Orion Constellation program. You will need to accept the download. </a></li>
-  <li><a href="https://calebhk98.github.io/DND-Character-Generator/Dnd Character Creator/bin/Debug/Dnd Character Creator.exe">This is my basic DND character generator program. You will need to accept the download. </a></li>
-  <li><a href="https://calebhk98.github.io/Python-Job-Dating/PythonApplication1/PythonApplication1.py">This is a basic program.This will eventually be able to combine people and jobs. You will need to accept the download. </a></li>
-  <li><a href="https://calebhk98.github.io/Screen-Recorder/Recording Application/bin/Debug/Recording Application.exe">This is a basic program. This can take videos or screenshots. You will need to accept the download. </a></li>
-  <li><a href="https://calebhk98.github.io/City-Builder/City Builder/bin/Debug/City Builder.exe">This is a basic program. This will eventually be as good as Sim-City You will need to accept the download. </a></li>
-  <li><a href="https://calebhk98.github.io/C-Basic-RPG/Following%20Tutorial/bin/Debug/Following%20Tutorial.exe">This is my Basic RPG program. You will need to accept the download. The password is "unlocked".</a></li>
-  <li></li>
-  <li><a href="https://github.com/calebhk98/Date-Assembler/raw/master/Birth%20Date%20String/bin/Debug/Birth%20Date%20String.exe">This can combine the day, month and year to show you how it should look. </a></li>
-  <li><a href="https://github.com/calebhk98/Card-Flip/raw/master/CardFlip/bin/Debug/CardFlip.exe">This will flip a card. </a></li>
-  <li><a href="https://github.com/calebhk98/Card-Identifier/raw/master/CardIdentifier/bin/Debug/CardIdentifier.exe">This will identify a card. </a></li>
-  <li><a href="https://github.com/calebhk98/Flag-Identifier/raw/master/Flags/bin/Debug/Flags.exe">This will identify a country's flag. </a></li>
-  <li><a href="https://github.com/calebhk98/Fuel-Economy/raw/master/Fuel%20Economy/bin/Debug/Fuel%20Economy.exe">This will calculate your mpg. </a></li>
-  <li><a href="https://github.com/calebhk98/Coin-Flip/raw/master/HeadsOrTails/bin/Debug/HeadsOrTails.exe">This will let you flip a coin. </a></li>
-  
+  <a href="#main" class="skip-to-main">Skip to main content</a>
 
-  </ul>
-  <p>This is the end</p>
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="Websites.html">
+        <img src="websites1.jpg" alt="" aria-hidden="true" />
+        Web Projects
+      </a></li>
+      <li><a href="C%23Programs.html">
+        <img src="csharpPic.png" alt="" aria-hidden="true" />
+        C# Programs
+      </a></li>
+      <li><a href="Python.html">
+        <img src="Python Logo.png" alt="" aria-hidden="true" />
+        Python Projects
+      </a></li>
+    </ul>
+  </nav>
 
-	<footer>
-			
-		
-		<p>This is my Footer</p>
-		<span id="lastModified"></span>
-	</footer>
+  <main id="main">
+    <h1>Caleb's Portfolio</h1>
+    <p class="intro">Software developer with experience in C#, Python, and web development</p>
+
+    <section class="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>Welcome to my portfolio! I'm a software developer passionate about creating tools and applications that solve real problems. My work spans desktop applications, web development, and machine learning experiments.</p>
+      <p>I've built everything from simple utilities to complex applications like screen recorders, RPG games, and neural networks. I enjoy learning new technologies and sharing my projects with others.</p>
+      <p>
+        <a href="https://github.com/calebhk98" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">
+          View My GitHub Profile
+        </a>
+      </p>
+    </section>
+
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Project Categories</h2>
+      <div class="category-grid">
+        <a href="Websites.html" class="category-card" aria-label="View my web development projects">
+          <img src="websites1.jpg" alt="" aria-hidden="true" />
+          <h3>Web Development</h3>
+          <p>HTML/CSS tutorial projects and website showcases</p>
+        </a>
+        <a href="C%23Programs.html" class="category-card" aria-label="View my C# programs">
+          <img src="csharpPic.png" alt="" aria-hidden="true" />
+          <h3>C# Applications</h3>
+          <p>Desktop utilities, games, and productivity tools</p>
+        </a>
+        <a href="Python.html" class="category-card" aria-label="View my Python projects">
+          <img src="Python Logo.png" alt="" aria-hidden="true" />
+          <h3>Python Projects</h3>
+          <p>Machine learning experiments and data processing</p>
+        </a>
+      </div>
+    </section>
+
+    <section aria-labelledby="featured-heading">
+      <h2 id="featured-heading">Featured Projects</h2>
+
+      <h3>Web Development Tutorials</h3>
+      <ul>
+        <li><a href="https://calebhk98.github.io/HTML-Tutorial-1/ct_start.html" target="_blank" rel="noopener noreferrer">Tutorial 1 - HTML Basics</a></li>
+        <li><a href="https://calebhk98.github.io/HTML-Review-1/mp_index.html" target="_blank" rel="noopener noreferrer">Review 1 - HTML Fundamentals</a></li>
+        <li><a href="https://calebhk98.github.io/HTML-Tutorial-2/tss_home.html" target="_blank" rel="noopener noreferrer">Tutorial 2 - CSS Styling</a></li>
+        <li><a href="https://calebhk98.github.io/HTML-Review-2/tss_coach.html" target="_blank" rel="noopener noreferrer">Review 2 - Advanced CSS</a></li>
+        <li><a href="https://calebhk98.github.io/HTML-Tutorial-3/pc_home.html" target="_blank" rel="noopener noreferrer">Tutorial 3 - Responsive Design</a></li>
+      </ul>
+
+      <h3>C# Applications</h3>
+      <p><strong>Note:</strong> These applications require download and Windows Trust approval. View source code on GitHub for more details.</p>
+      <ul>
+        <li><a href="https://github.com/calebhk98/Screen-Recorder" target="_blank" rel="noopener noreferrer">Screen Recorder - Capture videos and screenshots</a></li>
+        <li><a href="https://github.com/calebhk98/DND-Character-Generator" target="_blank" rel="noopener noreferrer">D&D Character Generator - Create tabletop RPG characters</a></li>
+        <li><a href="https://github.com/calebhk98/C-Basic-RPG" target="_blank" rel="noopener noreferrer">Basic RPG Game - Text-based adventure (password: "unlocked")</a></li>
+        <li><a href="https://github.com/calebhk98/City-Builder" target="_blank" rel="noopener noreferrer">City Builder - SimCity-inspired simulation (in development)</a></li>
+        <li><a href="https://github.com/calebhk98/Flag-Identifier" target="_blank" rel="noopener noreferrer">Flag Identifier - Country flag recognition tool</a></li>
+        <li><a href="https://github.com/calebhk98/Fuel-Economy" target="_blank" rel="noopener noreferrer">Fuel Economy Calculator - MPG calculations</a></li>
+      </ul>
+
+      <h3>Python Projects</h3>
+      <ul>
+        <li><a href="https://github.com/calebhk98/Recurrent-Neural-Network" target="_blank" rel="noopener noreferrer">Recurrent Neural Network - Custom architecture with 6-node design</a></li>
+        <li><a href="https://github.com/calebhk98/Python-Job-Dating" target="_blank" rel="noopener noreferrer">Job Dating System - People and job matching algorithm (in development)</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="utilities-heading">
+      <h2 id="utilities-heading">Utility Programs</h2>
+      <p>Collection of small tools and utilities:</p>
+      <div class="project-columns">
+        <ul>
+          <li><a href="https://github.com/calebhk98/Date-Assembler" target="_blank" rel="noopener noreferrer">Date Assembler - Format date strings</a></li>
+          <li><a href="https://github.com/calebhk98/Card-Flip" target="_blank" rel="noopener noreferrer">Card Flip - Virtual card flipper</a></li>
+          <li><a href="https://github.com/calebhk98/Card-Identifier" target="_blank" rel="noopener noreferrer">Card Identifier - Playing card recognition</a></li>
+          <li><a href="https://github.com/calebhk98/Coin-Flip" target="_blank" rel="noopener noreferrer">Coin Flip - Random coin tosser</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://github.com/calebhk98/Virtual-Keyboard" target="_blank" rel="noopener noreferrer">Virtual Keyboard - On-screen typing</a></li>
+          <li><a href="https://github.com/calebhk98/Property-Tax" target="_blank" rel="noopener noreferrer">Property Tax Calculator - Tax estimation tool</a></li>
+          <li><a href="https://github.com/calebhk98/Basic-Latin-Translator" target="_blank" rel="noopener noreferrer">Latin Translator - Basic Latin to English</a></li>
+          <li><a href="https://github.com/calebhk98/Tip-Tax-and-Total" target="_blank" rel="noopener noreferrer">Restaurant Calculator - Tip, tax, and total</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="friends-heading">
+      <h2 id="friends-heading">Community</h2>
+      <p>Check out projects from fellow developers:</p>
+      <ul>
+        <li><a href="https://darknight4231.github.io/" target="_blank" rel="noopener noreferrer">DarkNight4231's Portfolio</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with passion by Caleb | <a href="https://github.com/calebhk98" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    <span id="lastModified"></span>
+  </footer>
 </body>
-
 </html>
