@@ -1,54 +1,118 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<title> My Programs</title>
-	<link href="base.css" rel="stylesheet"/>
-	<script type="text/javascript">
-			onload = function(){
-				document.getElementById("lastModified").innerHTML = "Page last changed " + document.lastModified.split(" ")[0];
-			}
-	</script>
-	</head>
-	
-	<body>
-		<a href="index.html"><h1>My Programs</h1></a>
-		<p>
-		All of these will ask if you want to download them. You need to accept, then when you run them, accept again. 
-		
-		</p>
-		<ul class="Left">
-		  <li><a href="https://calebhk98.github.io/Joke-And-Punchline-In-C-/Joke%20and%20Punch%20Line/bin/Debug/Joke%20and%20Punch%20Line.exe">This is my Joke program. </a></li>
-		  <li><a href="https://calebhk98.github.io/Orions-Constellation/OrionConstellation/bin/Debug/OrionConstellation.exe">This is my basic Orion Constellation program. . </a></li>
-		  <li><a href="https://calebhk98.github.io/DND-Character-Generator/Dnd Character Creator/bin/Debug/Dnd Character Creator.exe">This is my basic DND character generator program. . </a></li>
-		  <li><a href="https://calebhk98.github.io/Python-Job-Dating/PythonApplication1/PythonApplication1.py">This is a basic program.This will eventually be ablt to combine people and jobs. . </a></li>
-		  <li><a href="https://calebhk98.github.io/Screen-Recorder/Recording Application/bin/Debug/Recording Application.exe">This is a basic program. This can take videos or screenshots. . </a></li>
-		  <li><a href="https://calebhk98.github.io/City-Builder/City Builder/bin/Debug/City Builder.exe">This is a basic program. This will eventually be as good as Sim-City . </a></li>
-		  <li><a href="https://calebhk98.github.io/C-Basic-RPG/Following%20Tutorial/bin/Debug/Following%20Tutorial.exe">This is my Basic RPG program. . The password is "unlocked".</a></li>
-		  
-		</ul>
-		<ul class="Right">
-		  <li><a href="https://github.com/calebhk98/Date-Assembler/raw/master/Birth%20Date%20String/bin/Debug/Birth%20Date%20String.exe">This can combine the day, month and year to show you how it should look. </a></li>
-		  <li><a href="https://github.com/calebhk98/Card-Flip/raw/master/CardFlip/bin/Debug/CardFlip.exe">This will flip a card. </a></li>
-		  <li><a href="https://github.com/calebhk98/Card-Identifier/raw/master/CardIdentifier/bin/Debug/CardIdentifier.exe">This will identify a card. </a></li>
-		  <li><a href="https://github.com/calebhk98/Flag-Identifier/raw/master/Flags/bin/Debug/Flags.exe">This will identify a country's flag. </a></li>
-		  <li><a href="https://github.com/calebhk98/Fuel-Economy/raw/master/Fuel%20Economy/bin/Debug/Fuel%20Economy.exe">This will calculate your mpg. </a></li>
-		  <li><a href="https://github.com/calebhk98/Coin-Flip/raw/master/HeadsOrTails/bin/Debug/HeadsOrTails.exe">This will let you flip a coin. </a></li>
-		  <li><a href="https://github.com/calebhk98/Virtual-Keyboard/raw/master/SentenceBuilder/bin/Debug/SentenceBuilder.exe">This will let you use a virtual Keyboard. </a></li>
-		  <li><a href="https://github.com/calebhk98/Property-Tax/raw/master/PropertyTax/bin/Debug/PropertyTax.exe">This will calculate the property tax based on a $0.64 per $100</a></li>
-		  <li><a href="https://github.com/calebhk98/Basic-Latin-Translator/raw/master/LatinTranslator/bin/Debug/LatinToEnglish.exe">This will translate Left, right and Center from Latin to English</a></li>
-		  <li><a href="https://github.com/calebhk98/Basic-Language-Translator/raw/master/Language%20Translator/bin/Debug/Language%20Translator.exe">This is a language translator for 3 languages, that only translates good morning. </a></li>
-		  <li><a href="https://github.com/calebhk98/Tip-Tax-and-Total/raw/master/TipTaxAndTotal/bin/Debug/TipTaxAndTotal.exe">This will calculate your tip, your tax and your total based on only your bill.</a></li>
-		  
-		  
-		  
-		  
-		</ul>
-		<p></p>
-		<footer>
-		<p>This is my Footer</p>		
-		<span id="lastModified"></span>
-		
-		</footer>
-	</body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caleb's C# Programs - Desktop applications, games, and utilities built with C# and .NET">
+  <meta name="author" content="Caleb">
+  <title>C# Programs - Caleb's Portfolio</title>
+  <link href="base.css" rel="stylesheet"/>
+  <script type="text/javascript">
+    onload = function(){
+      document.getElementById("lastModified").innerHTML = "Last updated " + document.lastModified.split(" ")[0];
+    }
+  </script>
+</head>
 
+<body>
+  <a href="#main" class="skip-to-main">Skip to main content</a>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Websites.html">
+        <img src="websites1.jpg" alt="" aria-hidden="true" />
+        Web Projects
+      </a></li>
+      <li><a href="C%23Programs.html" aria-current="page">
+        <img src="csharpPic.png" alt="" aria-hidden="true" />
+        C# Programs
+      </a></li>
+      <li><a href="Python.html">
+        <img src="Python Logo.png" alt="" aria-hidden="true" />
+        Python Projects
+      </a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+    <h1>C# Programs</h1>
+    <p class="intro">Desktop applications and utilities built with C# and .NET Framework</p>
+
+    <section aria-labelledby="download-notice">
+      <h2 id="download-notice">Important Notice</h2>
+      <p><strong>About Downloads:</strong> These programs are Windows executable files (.exe). When downloading and running them, Windows SmartScreen may display a warning. This is normal for applications without code-signing certificates.</p>
+      <p>For transparency and security, the source code for most of these projects is available on <a href="https://github.com/calebhk98" target="_blank" rel="noopener noreferrer">GitHub</a>. You can review the code before running any application.</p>
+    </section>
+
+    <section aria-labelledby="featured-apps">
+      <h2 id="featured-apps">Featured Applications</h2>
+
+      <div class="project-columns">
+        <div>
+          <h3>Multimedia & Graphics</h3>
+          <ul>
+            <li><a href="https://github.com/calebhk98/Screen-Recorder" target="_blank" rel="noopener noreferrer">Screen Recorder</a> - Capture videos and screenshots of your desktop</li>
+            <li><a href="https://github.com/calebhk98/Orions-Constellation" target="_blank" rel="noopener noreferrer">Orion's Constellation</a> - Graphical representation of the Orion constellation</li>
+          </ul>
+
+          <h3>Games & Entertainment</h3>
+          <ul>
+            <li><a href="https://github.com/calebhk98/C-Basic-RPG" target="_blank" rel="noopener noreferrer">Basic RPG</a> - Text-based role-playing game (Password: "unlocked")</li>
+            <li><a href="https://github.com/calebhk98/DND-Character-Generator" target="_blank" rel="noopener noreferrer">D&D Character Generator</a> - Create characters for tabletop RPGs</li>
+            <li><a href="https://github.com/calebhk98/City-Builder" target="_blank" rel="noopener noreferrer">City Builder</a> - SimCity-inspired simulation game (in development)</li>
+            <li><a href="https://github.com/calebhk98/Joke-And-Punchline-In-C-" target="_blank" rel="noopener noreferrer">Joke Program</a> - Interactive joke and punchline generator</li>
+          </ul>
+
+          <h3>Card & Coin Programs</h3>
+          <ul>
+            <li><a href="https://github.com/calebhk98/Card-Flip" target="_blank" rel="noopener noreferrer">Card Flip</a> - Virtual card flipping simulation</li>
+            <li><a href="https://github.com/calebhk98/Card-Identifier" target="_blank" rel="noopener noreferrer">Card Identifier</a> - Identify playing cards from input</li>
+            <li><a href="https://github.com/calebhk98/Coin-Flip" target="_blank" rel="noopener noreferrer">Coin Flip</a> - Random coin toss simulator</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Calculators & Tools</h3>
+          <ul>
+            <li><a href="https://github.com/calebhk98/Fuel-Economy" target="_blank" rel="noopener noreferrer">Fuel Economy Calculator</a> - Calculate miles per gallon (MPG)</li>
+            <li><a href="https://github.com/calebhk98/Property-Tax" target="_blank" rel="noopener noreferrer">Property Tax Calculator</a> - Estimate property tax at $0.64 per $100</li>
+            <li><a href="https://github.com/calebhk98/Tip-Tax-and-Total" target="_blank" rel="noopener noreferrer">Restaurant Calculator</a> - Calculate tip, tax, and total from bill amount</li>
+            <li><a href="https://github.com/calebhk98/Date-Assembler" target="_blank" rel="noopener noreferrer">Date Assembler</a> - Format and combine date components</li>
+          </ul>
+
+          <h3>Translators & Language</h3>
+          <ul>
+            <li><a href="https://github.com/calebhk98/Basic-Latin-Translator" target="_blank" rel="noopener noreferrer">Latin Translator</a> - Translate Left, Right, and Center from Latin to English</li>
+            <li><a href="https://github.com/calebhk98/Basic-Language-Translator" target="_blank" rel="noopener noreferrer">Language Translator</a> - Translate "Good Morning" across 3 languages</li>
+          </ul>
+
+          <h3>Input & Recognition</h3>
+          <ul>
+            <li><a href="https://github.com/calebhk98/Virtual-Keyboard" target="_blank" rel="noopener noreferrer">Virtual Keyboard</a> - On-screen sentence builder</li>
+            <li><a href="https://github.com/calebhk98/Flag-Identifier" target="_blank" rel="noopener noreferrer">Flag Identifier</a> - Identify country flags</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="learning">
+      <h2 id="learning">What I Learned</h2>
+      <p>These projects helped me develop skills in:</p>
+      <ul>
+        <li>Windows Forms and GUI development</li>
+        <li>Event-driven programming</li>
+        <li>File I/O and data persistence</li>
+        <li>Graphics and multimedia APIs</li>
+        <li>User input validation and error handling</li>
+        <li>Application architecture and design patterns</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with passion by Caleb | <a href="https://github.com/calebhk98" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="index.html">Back to Home</a></p>
+    <span id="lastModified"></span>
+  </footer>
+</body>
 </html>

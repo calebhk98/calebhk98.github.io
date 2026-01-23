@@ -1,34 +1,107 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<title> My Programs</title>
-	<link href="base.css" rel="stylesheet"/>
-	<script type="text/javascript">
-			onload = function(){
-				document.getElementById("lastModified").innerHTML = "Page last changed " + document.lastModified.split(" ")[0];
-			}
-	</script>
-	</head>
-	
-	<body>
-		<a href="index.html"><h1>My Programs</h1></a>
-		<p>
-		All of these will ask if you want to download them. You need to accept, then when you run them, accept again. 
-		
-		</p>
-		<ul class="Left">
-		  <li><a href="https://raw.githubusercontent.com/calebhk98/Recurrent-Neural-Network/master/Recurrent%20Neural%20Network%20Prototype/Recurrent_Neural_Network_Prototype.py">This is a recurrent Neural Network that has a persoanl twist with each node being 6 nodes. </a></li>
-		</ul>
-		<ul class="Right">
-		  
-		  
-		</ul>
-		<p></p>
-		<footer>
-		<p>This is my Footer</p>		
-		<span id="lastModified"></span>
-		
-		</footer>
-	</body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caleb's Python Projects - Machine learning, neural networks, and data processing applications">
+  <meta name="author" content="Caleb">
+  <title>Python Projects - Caleb's Portfolio</title>
+  <link href="base.css" rel="stylesheet"/>
+  <script type="text/javascript">
+    onload = function(){
+      document.getElementById("lastModified").innerHTML = "Last updated " + document.lastModified.split(" ")[0];
+    }
+  </script>
+</head>
 
+<body>
+  <a href="#main" class="skip-to-main">Skip to main content</a>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Websites.html">
+        <img src="websites1.jpg" alt="" aria-hidden="true" />
+        Web Projects
+      </a></li>
+      <li><a href="C%23Programs.html">
+        <img src="csharpPic.png" alt="" aria-hidden="true" />
+        C# Programs
+      </a></li>
+      <li><a href="Python.html" aria-current="page">
+        <img src="Python Logo.png" alt="" aria-hidden="true" />
+        Python Projects
+      </a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+    <h1>Python Projects</h1>
+    <p class="intro">Machine learning experiments and data processing applications</p>
+
+    <section aria-labelledby="about-python">
+      <h2 id="about-python">About These Projects</h2>
+      <p>My Python work focuses on machine learning, neural networks, and data processing. These projects represent my exploration into artificial intelligence and computational algorithms.</p>
+      <p>All Python source code is available on GitHub and can be run directly with Python 3. No downloads required - just clone and run!</p>
+    </section>
+
+    <section aria-labelledby="ml-projects">
+      <h2 id="ml-projects">Machine Learning Projects</h2>
+
+      <h3>Neural Networks</h3>
+      <ul>
+        <li>
+          <a href="https://github.com/calebhk98/Recurrent-Neural-Network" target="_blank" rel="noopener noreferrer">
+            <strong>Recurrent Neural Network</strong>
+          </a>
+          <p>A custom recurrent neural network implementation with a unique architecture. Unlike traditional RNNs, this network uses a 6-node design for each processing unit, allowing for more complex pattern recognition and temporal dependencies.</p>
+          <p><strong>Technologies:</strong> Python, NumPy, custom neural network architecture</p>
+          <p><strong>Status:</strong> Prototype/Experimental</p>
+        </li>
+      </ul>
+
+      <h3>Data Processing & Algorithms</h3>
+      <ul>
+        <li>
+          <a href="https://github.com/calebhk98/Python-Job-Dating" target="_blank" rel="noopener noreferrer">
+            <strong>Job Dating System</strong>
+          </a>
+          <p>An intelligent matching system designed to pair people with suitable jobs based on skills, preferences, and requirements. Uses algorithmic matching to optimize person-to-job fit.</p>
+          <p><strong>Technologies:</strong> Python, matching algorithms, data structures</p>
+          <p><strong>Status:</strong> In Development</p>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="learning-python">
+      <h2 id="learning-python">Skills Developed</h2>
+      <p>Through these Python projects, I've gained experience in:</p>
+      <ul>
+        <li>Neural network design and implementation</li>
+        <li>Machine learning fundamentals</li>
+        <li>Algorithm development and optimization</li>
+        <li>NumPy and scientific computing libraries</li>
+        <li>Data structures and efficient processing</li>
+        <li>Mathematical modeling and computation</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="future-projects">
+      <h2 id="future-projects">Future Directions</h2>
+      <p>I'm planning to expand my Python portfolio with:</p>
+      <ul>
+        <li>Deep learning frameworks (TensorFlow, PyTorch)</li>
+        <li>Computer vision applications</li>
+        <li>Natural language processing projects</li>
+        <li>Data visualization and analytics tools</li>
+        <li>API development with Flask or FastAPI</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with passion by Caleb | <a href="https://github.com/calebhk98" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="index.html">Back to Home</a></p>
+    <span id="lastModified"></span>
+  </footer>
+</body>
 </html>
